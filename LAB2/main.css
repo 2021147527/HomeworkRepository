@@ -1,0 +1,30 @@
+button      {background-color: antiquewhite; text-align: center;
+            padding: 3px; margin: 3px;}
+button.su:hover {background-color: aquamarine;}
+button.cc:hover {background-color: red;}
+
+
+div         {background-color: antiquewhite; margin-bottom: 3px;
+            padding: 1px; border:2.2px black solid;
+            width: 25%; text-align: center; height: 20px;
+            margin:0 auto;}
+
+a           {text-decoration:none; color: black;}
+a:hover     {color: purple; text-decoration:underline;}
+a.button:hover  {text-decoration: none; color: black;}
+
+h1          {font-family: 'Times New Roman', Times, serif;
+            font-size: xx-large;}
+
+body        {background-color: beige; font-size: medium; 
+            font-family: 'Times New Roman', Times, serif;}
+
+div.not     {background-color: beige; border: none;}
+
+input.sizeup {width: 20%;}
+
+div.bottomline {height: auto; width:auto; border-bottom: 2px; background:transparent;
+                margin-bottom: 1em;}
+.center        {text-align: center;}
+
+div.logintop {margin: 0;}
