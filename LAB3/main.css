@@ -1,0 +1,132 @@
+*   {font-family: NEODunggeunmo,serif;}
+
+div.welcome  {font-size: 40px; font-weight: bolder; position: absolute;
+             width: 500px; height: 80px; top:50px;
+             text-align: center; line-height: 80px;
+             color:#003464; background-color: white;
+             border: 2px solid black; border-radius: 20px;
+             box-shadow: 10px 10px black; }
+div.welcome:hover   {border:2px solid #FBE65D; cursor: pointer;}
+
+
+
+div.navy    {display: flex; justify-content: center; align-items: center; 
+            min-height: 100vh; background-color: #003464;
+            background:url(NYAN-CAT-ARTINTERVIEW-copy.webp) repeat;
+            background-origin: border-box; margin:0px; width: 100%; height: 100%;}
+
+h1          {font-size: 50px; display: inline;}
+h3          {display: inline;}
+
+
+a.none         {text-decoration: none; color: black;}
+a.none:hover   {text-decoration: underline; color: rgb(209, 55, 81)}
+
+input    {width: 300px; height: 20px; border-top: none; border-right: none;
+         border-left: none; margin-top: 13px; padding: 5px;
+         text-align: center; font-size: 16px;}
+
+
+input:focus   {border-color: rgb(30, 30, 255); outline: none; 
+              animation: stretchline 1s 1;
+              text-align: center; font-size: 17px; font-weight: bold;}
+
+div.loginbox{width: 400px; height: 600px; padding-bottom: 40px;
+            text-align: center;
+            color:black; background-color: white;
+            border: 6px; border-color: black; border-radius: 20px;
+            box-shadow: 20px 20px;}
+
+div.signupbox  {width: 500px; height: 590px; padding-bottom: 40px;
+                text-align: center;
+                color:black; background-color: white;
+                border: 6px; border-color: black; border-radius: 20px;
+                box-shadow: 20px 20px;}
+
+.red    {color:red;}
+
+img.logo   {position: relative; bottom: -1ex; margin-right: 3px;}
+img.coin1   {width: 50px; height: 50px; position: relative; bottom: -9px; right: 10px;}
+img.coin2   {width: 50px; height: 50px; position: relative; bottom: -9px; left: 10px;}
+
+button.lab2 {width: auto; height: 30px; margin: 10px; border-radius: 20px;}
+
+button.lab2:hover    {background: linear-gradient(135deg, red 15%,orange,yellow,green,skyblue,blue,purple);
+                      cursor: pointer;}
+
+@keyframes stretchline{
+    0% {width: 0px;}
+    100% {width:300px;}
+}
+/*LAB 2(signup.html & login.html)*/
+
+@font-face {
+    font-family: 'NeoDunggeunmo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.navy1020    {display: flex; justify-content: center; align-items: top; 
+                min-height: 100vh; background-color: #003464;
+                background:url(NYAN-CAT-ARTINTERVIEW-copy.webp) repeat;
+                background-origin: border-box; width: 1020px;
+                margin: 0 auto; height: 3000px;}
+
+div.maintop  {font-size: 40px; position: relative;
+              width: 980px; height: 120px; top:30px;
+              text-align: left;
+               background-color: white;
+               border: 2px solid black; border-radius: 20px;
+               box-shadow: 10px 10px black; padding-left: 10px; 
+               }
+
+div.movingbox   {font-size: 80px; width: 600px; text-align: right;
+                margin-top: 25px; color: #003464; animation-name: move;
+                animation-duration: 2s; animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);}
+
+button.lab3     {width: 60px; height: 30px;
+                border: 5px inset; background-color: #B9B8B1;
+                animation: appear 2s ease;}
+
+button.lab3:hover {border: black solid 1px;}
+
+button.lab3-1   {width: 70px; height: 30px;
+                border: 5px inset; background-color: #B9B8B1;
+                animation: appear 2s ease;}
+
+button.lab3-1:hover {border: black solid 1px;}
+
+div.but         {width: 980px; height:40px;  text-align: right;
+                position: absolute; top: 160px; padding-top: 15px;}
+
+span.shadow     {text-shadow: 2px 2px rgb(77, 181, 223);}
+
+table.commerce  {position: absolute; top: 220px;
+                border-collapse: collapse;
+                width: 980px; text-align: top;
+                background-color: #003464;}
+    
+td,th      {border: white solid 2px; width:490px; height: 400px;
+            text-align: center; color: white;}
+
+div.in     {border: white solid 2px; width: 300px; height: 300px;
+            margin: 0 auto; text-align: center;}
+
+img.bigger  {width: 200px; height: 200px; margin-top: 50px;}
+img.bigger:hover    {transform: scale(1.5);
+                    transition: .5s;}
+
+img.rotate    {width: 300px; height: 300px; transition: all 1s ease;}
+img.rotate:hover {transform: rotate(360deg);}
+
+@keyframes move{
+    0% {width: 980px;}
+    100% {width: 600px;}
+    
+}
+
+@keyframes appear{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
