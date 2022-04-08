@@ -13,7 +13,7 @@ div.welcome:hover   {border:2px solid #FBE65D; cursor: pointer;}
 div.navy    {display: flex; justify-content: center; align-items: center; 
             min-height: 100vh; background-color: #003464;
             background:url(NYAN-CAT-ARTINTERVIEW-copy.webp) repeat;
-            background-origin: border-box; margin:0px; width: 100%; height: 100%;}
+            background-origin: border-box; margin:0px; width: 100%; height: 3000px;}
 
 h1          {font-size: 50px; display: inline;}
 h3          {display: inline;}
@@ -35,17 +35,16 @@ div.loginbox{width: 400px; height: 600px; padding-bottom: 40px;
             text-align: center;
             color:black; background-color: white;
             border: 6px; border-color: black; border-radius: 20px;
-            box-shadow: 20px 20px;}
+            box-shadow: 20px 20px; position:absolute; top: 200px;}
 
 div.signupbox  {width: 500px; height: 590px; padding-bottom: 40px;
                 text-align: center;
                 color:black; background-color: white;
                 border: 6px; border-color: black; border-radius: 20px;
-                box-shadow: 20px 20px;}
+                box-shadow: 20px 20px; position:absolute; top:200px;}
 
 .red    {color:red;}
 
-img.logo   {position: relative; bottom: -1ex; margin-right: 3px;}
 img.coin1   {width: 50px; height: 50px; position: relative; bottom: -9px; right: 10px;}
 img.coin2   {width: 50px; height: 50px; position: relative; bottom: -9px; left: 10px;}
 
@@ -67,22 +66,18 @@ button.lab2:hover    {background: linear-gradient(135deg, red 15%,orange,yellow,
     font-style: normal;
 }
 
-div.navy1020    {display: flex; justify-content: center; align-items: top; 
+div.navy1020    {display: flex; justify-content: center;
                 min-height: 100vh; background-color: #003464;
                 background:url(NYAN-CAT-ARTINTERVIEW-copy.webp) repeat;
                 background-origin: border-box; width: 1020px;
                 margin: 0 auto; height: 3000px;}
 
 div.maintop  {font-size: 40px; position: relative;
-              width: 980px; height: 120px; top:30px;
-              text-align: left;
-               background-color: white;
-               border: 2px solid black; border-radius: 20px;
-               box-shadow: 10px 10px black; padding-left: 10px; 
-               }
+              width: 1020px; height: 120px; top:30px;
+              text-align: left;}
 
 div.movingbox   {font-size: 80px; width: 600px; text-align: right;
-                margin-top: 25px; color: #003464; animation-name: move;
+                margin-top: 25px; color: goldenrod; animation-name: move;
                 animation-duration: 2s; animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);}
 
 button.lab3     {width: 60px; height: 30px;
@@ -97,6 +92,14 @@ button.lab3-1   {width: 70px; height: 30px;
 
 button.lab3-1:hover {border: black solid 1px;}
 
+button.lab3-2   {width: 90px; height: 30px;
+                 border: 5px inset; background-color: skyblue;
+                animation: appear 2s ease;}
+
+button.lab3-2:hover {border: black solid 1px;}
+
+
+
 div.but         {width: 980px; height:40px;  text-align: right;
                 position: absolute; top: 160px; padding-top: 15px;}
 
@@ -104,8 +107,7 @@ span.shadow     {text-shadow: 2px 2px rgb(77, 181, 223);}
 
 table.commerce  {position: absolute; top: 220px;
                 border-collapse: collapse;
-                width: 980px; text-align: top;
-                background-color: #003464;}
+                width: 980px; background-color: #003464;}
     
 td,th      {border: white solid 2px; width:490px; height: 400px;
             text-align: center; color: white;}
@@ -113,17 +115,17 @@ td,th      {border: white solid 2px; width:490px; height: 400px;
 div.in     {border: white solid 2px; width: 300px; height: 300px;
             margin: 0 auto; text-align: center;}
 
-img.bigger  {width: 200px; height: 200px; margin-top: 50px;}
-img.bigger:hover    {transform: scale(1.5);
-                    transition: .5s;}
+img.bigger  {width: 150px; height: 150px; margin-top: 75px;}
+img.bigger:hover    {transform: scale(2);
+                    transition: 2s;}
 
-img.rotate    {width: 300px; height: 300px; transition: all 1s ease;}
-img.rotate:hover {transform: rotate(360deg);}
+img.rotate    {width: 300px; height: 300px;}
+img.rotate:hover {transform: rotate(360deg);
+                 transition: all 1s ease;}
 
 @keyframes move{
-    0% {width: 980px;}
+    0% {width: 1620px;}
     100% {width: 600px;}
-    
 }
 
 @keyframes appear{
