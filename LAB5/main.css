@@ -1,0 +1,345 @@
+*   {font-family: NEODunggeunmo,serif;}
+
+div.welcome  {font-size: 40px; font-weight: bolder; position: absolute;
+             width: 500px; height: 80px; top:50px;
+             text-align: center; line-height: 80px;
+             color:#003464; background-color: white;
+             border: 2px solid black; border-radius: 20px;
+             box-shadow: 10px 10px black; }
+div.welcome:hover   {border:2px solid #FBE65D; cursor: pointer;}
+
+
+
+div.navy    {display: flex; justify-content: center; align-items: center; 
+            min-height: 100vh; background-color: #003464;
+            background:url(NYAN-CAT-ARTINTERVIEW-copy.webp) repeat;
+            background-origin: border-box; margin:0px; width: 100%; height: 100%;}
+
+h1          {font-size: 50px; display: inline;}
+h3          {display: inline;}
+
+
+a.none         {text-decoration: none; color: black;}
+a.none:hover   {text-decoration: underline; color: rgb(209, 55, 81)}
+
+input    {width: 300px; height: 20px; border-top: none; border-right: none;
+         border-left: none; margin-top: 13px; padding: 5px;
+         text-align: center; font-size: 16px;}
+
+
+input:focus   {border-color: rgb(30, 30, 255); outline: none; 
+              animation: stretchline 1s 1;
+              text-align: center; font-size: 17px; font-weight: bold;}
+
+div.loginbox{width: 400px; height: 600px; padding-bottom: 40px;
+            text-align: center;
+            color:black; background-color: white;
+            border: 6px; border-color: black; border-radius: 20px;
+            box-shadow: 20px 20px;}
+
+div.signupbox  {width: 500px; height: 590px; padding-bottom: 40px;
+                text-align: center;
+                color:black; background-color: white;
+                border: 6px; border-color: black; border-radius: 20px;
+                box-shadow: 20px 20px;}
+
+.red    {color:red;}
+
+img.coin1   {width: 50px; height: 50px; position: relative; bottom: -9px; right: 10px;}
+img.coin2   {width: 50px; height: 50px; position: relative; bottom: -9px; left: 10px;}
+
+button.lab2 {width: auto; height: 30px; margin: 10px; border-radius: 20px;}
+
+button.lab2:hover    {background: linear-gradient(135deg, red 15%,orange,yellow,green,skyblue,blue,purple);
+                      cursor: pointer;}
+
+@keyframes stretchline{
+    0% {width: 0px;}
+    100% {width:300px;}
+}
+/*----------------------------------------------------------LAB 2(signup.html & login.html)--------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'NeoDunggeunmo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.navy1020    {display: flex; justify-content: center;
+                min-height: 100vh; background-color: #003464;
+                background:url(NYAN-CAT-ARTINTERVIEW-copy.webp) repeat;
+                background-origin: border-box; width: 1020px;
+                margin: 0 auto; height: 3000px;}
+
+div.maintop  {font-size: 40px; position: relative;
+              width: 1020px; height: 120px; top:30px;
+              text-align: left;}
+
+div.movingbox   {font-size: 80px; width: 600px; text-align: right;
+                margin-top: 25px; color: goldenrod; animation-name: move;
+                animation-duration: 2s; animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);}
+
+button.lab3     {width: 60px; height: 30px; margin-right: 5px;
+                border: 5px inset; background-color: #B9B8B1;
+                animation: appear 2s ease;}
+
+button.lab3:hover {border: black solid 1px;}
+
+button.lab3-1   {width: 70px; height: 30px;
+                border: 5px inset; background-color: #B9B8B1;
+                animation: appear 2s ease; margin-right: 5px;}
+
+button.lab3-1:hover {border: black solid 1px;}
+
+button.lab3-2   {width: 90px; height: 30px;
+                 border: 5px inset; background-color: skyblue;
+                animation: appear 2s ease;}
+
+button.lab3-2:hover {border: black solid 1px;}
+
+
+
+div.navigation  {width: 980px; height:40px;  justify-content: right;
+                position: absolute; top: 160px; padding-top: 15px;
+                display: flex; flex-direction: row; flex-wrap: nowrap;}
+                /*lab 4 number 1 -> flex-direction, flex-wrap, justify-content */
+
+span.shadow     {text-shadow: 2px 2px rgb(77, 181, 223);}
+
+table.commerce  {position: absolute; top: 220px;
+                border-collapse: collapse;
+                width: 980px; background-color: #003464;}
+    
+td,th      {border: white solid 2px; width:490px; height: 400px;
+            text-align: center; color: white;}
+
+div.in     {border: white solid 2px; width: 200px; height: 200px;
+            margin: 0 auto; text-align: center;}
+
+img.bigger  {width: 100px; height: 100px; margin-top: 50px;}
+img.bigger:hover    {transform: scale(2);
+                    transition: 2s;}
+
+img.rotate    {width: 200px; height: 200px;}
+img.rotate:hover {transform: rotate(360deg);
+                 transition: all 1s ease;}
+
+@keyframes move{
+    0% {width: 1620px;}
+    100% {width: 600px;}
+}
+
+@keyframes appear{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/*----------------------------------------------------------LAB 3(index.html)--------------------------------------------------------------*/
+
+div.maincontent {position: absolute; top: 220px; width:1000px; 
+                display: flex; flex-direction: column; border: 2px solid white;
+                height: 3000px; justify-content: top;}
+
+
+div.division1 {display: flex; flex-direction: column; width: 980px; 
+              border: 2px solid white; margin: 10px auto; background-color: #003464;}
+div.imagetitle {border-bottom: 2px solid white; height: 65px; width: 960px;
+               margin: 10px auto; color: white; font-size: 60px; 
+               text-align: center;}
+div.imagecontent {display: flex; flex-direction: row; width: 960px; 
+                justify-content: left; margin-left: 10px; margin-right: 10px; margin-top: 5px;}
+div.imagetext   {margin-top:5px; margin-left: 10px; margin-right: 10px; height: 50px;
+                width: 960px; display: flex; flex-direction: row; justify-content: left;}
+div.imagename   {color: white; text-align: center; width: 200px; margin: 0 auto;}
+
+
+div.division2   {display: flex; flex-direction: column; margin: 10px;
+                border: 2px solid white; background-color: #003464; width: 980px;
+                height: 600px;}
+div.tctitle     {border-bottom: 2px solid white; height: 45px; width: 960px;
+                margin: 10px auto; color: white; font-size: 40px; 
+                text-align: left;}
+div.tctext      {color: white; font-size: x-large; padding: 7px;}
+
+
+
+
+
+
+
+
+
+
+
+/* <------------ 480 */
+@media screen and (max-width:480px) {
+    div.navy1020    {display: flex; justify-content: center;
+        min-height: 100vh; background-color: #003464;
+        background:url(NYAN-CAT-ARTINTERVIEW-copy.webp) repeat;
+        background-origin: border-box; width: 100%;
+        margin: 0 auto; height: 3000px;}
+
+
+div.movingbox   {font-size: 0.8em; width: 95%; text-align: left;
+        color: goldenrod;}
+
+button.lab3     {width: 60px; height: 30px; margin-right: 5px;
+   border: 5px inset; background-color: #B9B8B1;
+   animation: appear 2s ease; margin: 7px auto;}
+
+button.lab3:hover {border: black solid 1px;}
+
+button.lab3-1   {width: 70px; height: 30px;
+   border: 5px inset; background-color: #B9B8B1;
+   animation: appear 2s ease; margin-right: 5px;
+   margin: 7px auto;}
+
+button.lab3-1:hover {border: black solid 1px;}
+
+button.lab3-2   {width: 90px; height: 30px;
+    border: 5px inset; background-color: skyblue;
+   animation: appear 2s ease;
+   margin: 7px auto;}
+
+button.lab3-2:hover {border: black solid 1px;}
+
+
+
+div.navigation  {width: 100%; height:140px;  justify-content: center;
+   position: absolute; top: 120px;
+   display: flex; flex-direction: column;}
+   /*lab 4 number 1 -> flex-direction, flex-wrap, justify-content */
+
+span.shadow     {text-shadow: 2px 2px rgb(77, 181, 223);}
+
+div.in     {width: 85%; height: 300px; padding-bottom: 20px; margin: 10px; border: none; margin: 0 auto;}
+
+img.bigger  {position: relative; width: 100%; height: 100%;
+    bottom: 20%; border: gold solid 2px;}
+img.bigger:hover    {transform: scale(1);}
+
+img.rotate    {width: 100%; height: 100%; border: gold solid 3px;}
+img.rotate:hover {transform: scale(1);}
+
+@keyframes move{
+}
+
+@keyframes appear{
+}
+
+/*----------------------------------------------------------LAB 3(index.html)--------------------------------------------------------------*/
+
+div.maincontent {position: absolute; top: 300px; width:100%; 
+        display: flex; flex-direction: column; border: 2px solid white;
+        height: 3000px; justify-content: top;}
+
+
+div.division1 {display: flex; flex-direction: column; width: 95%; 
+ border: 2px solid white; margin: 10px auto; background-color: #003464;}
+div.imagetitle {border-bottom: 2px solid white; height: 65px; width: 95%;
+  margin: 10px auto; color: white; font-size: 35px; 
+  text-align: center;}
+div.imagecontent {display: flex; flex-direction: row; flex-wrap: wrap; width: 95%; 
+        justify-content: center; margin-top: 5px; height: auto;}
+div.imagetext   {height: 60px; margin: 0 auto;
+            width: 90%; display: flex; flex-direction: row; justify-content: right;}
+
+
+
+div.division2   {display: flex; flex-direction: column; margin: 10px;
+   border: 2px solid white; background-color: #003464; width: 95%;
+   height: auto; margin: 0 auto;}
+div.tctitle     {border-bottom: 2px solid white; height: 45px; width: 90%;
+   margin: 10px auto; color: white; font-size: 40px; 
+   text-align: left;}
+div.tctext      {color: white; font-size: x-large; padding: 7px;}
+    
+}
+
+
+/* 481 <------------> 800 */
+@media screen and (min-width:481px) and (max-width:800px) {
+
+div.navy1020    {display: flex; justify-content: center;
+                min-height: 100vh; background-color: #003464;
+                background:url(NYAN-CAT-ARTINTERVIEW-copy.webp) repeat;
+                background-origin: border-box; width: 100%;
+                margin: 0 auto; height: 3000px;}
+
+
+div.movingbox   {font-size: 55px; width: 95%; text-align: left;
+                color: goldenrod;}
+
+button.lab3     {width: 60px; height: 30px; margin-right: 5px;
+           border: 5px inset; background-color: #B9B8B1;
+           animation: appear 2s ease; margin: 7px auto;}
+
+button.lab3:hover {border: black solid 1px;}
+
+button.lab3-1   {width: 70px; height: 30px;
+           border: 5px inset; background-color: #B9B8B1;
+           animation: appear 2s ease; margin-right: 5px;
+           margin: 7px auto;}
+
+button.lab3-1:hover {border: black solid 1px;}
+
+button.lab3-2   {width: 90px; height: 30px;
+            border: 5px inset; background-color: skyblue;
+           animation: appear 2s ease;
+           margin: 7px auto;}
+
+button.lab3-2:hover {border: black solid 1px;}
+
+
+
+div.navigation  {width: 100%; height:140px;  justify-content: center;
+           position: absolute; top: 120px;
+           display: flex; flex-direction: column;}
+           /*lab 4 number 1 -> flex-direction, flex-wrap, justify-content */
+
+span.shadow     {text-shadow: 2px 2px rgb(77, 181, 223);}
+
+div.in     {width: 40%; height: 40%; border: none;}
+
+img.bigger  {position: relative; width: 100%; height: 100%;
+            bottom: 20%; border: gold solid 2px;}
+img.bigger:hover    {transform: scale(1);}
+
+img.rotate    {width: 100%; height: 100%; border: gold solid 3px;}
+img.rotate:hover {transform: scale(1);}
+
+@keyframes move{
+}
+
+@keyframes appear{
+}
+
+/*----------------------------------------------------------LAB 3(index.html)--------------------------------------------------------------*/
+
+div.maincontent {position: absolute; top: 300px; width:100%; 
+                display: flex; flex-direction: column; border: 2px solid white;
+                height: 3000px; justify-content: top;}
+
+
+div.division1 {display: flex; flex-direction: column; width: 95%; 
+         border: 2px solid white; margin: 10px auto; background-color: #003464;}
+div.imagetitle {border-bottom: 2px solid white; height: 65px; width: 95%;
+          margin: 10px auto; color: white; font-size: 35px; 
+          text-align: center;}
+div.imagecontent {display: flex; flex-direction: row; flex-wrap: wrap; width: 95%; 
+                justify-content: left; margin-top: 5px; height: 600px;}
+div.imagetext   {height: 60px; margin: 0 auto;
+                    width: 90%; display: flex; flex-direction: row; justify-content: right;}
+
+
+
+div.division2   {display: flex; flex-direction: column; margin: 10px;
+           border: 2px solid white; background-color: #003464; width: 95%;
+           height: auto; margin: 0 auto;}
+div.tctitle     {border-bottom: 2px solid white; height: 45px; width: 90%;
+           margin: 10px auto; color: white; font-size: 40px; 
+           text-align: left;}
+div.tctext      {color: white; font-size: x-large; padding: 7px;}
+
+}
