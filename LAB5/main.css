@@ -26,11 +26,6 @@ input    {width: 300px; height: 20px; border-top: none; border-right: none;
          border-left: none; margin-top: 13px; padding: 5px;
          text-align: center; font-size: 16px;}
 
-
-input:focus   {border-color: rgb(30, 30, 255); outline: none; 
-              animation: stretchline 1s 1;
-              text-align: center; font-size: 17px; font-weight: bold;}
-
 div.loginbox{width: 400px; height: 600px; padding-bottom: 40px;
             text-align: center;
             color:black; background-color: white;
@@ -70,7 +65,7 @@ div.navy1020    {display: flex; justify-content: center;
                 min-height: 100vh; background-color: #003464;
                 background:url(NYAN-CAT-ARTINTERVIEW-copy.webp) repeat;
                 background-origin: border-box; width: 1020px;
-                margin: 0 auto; height: 3000px;}
+                margin: 0 auto; height: 4000px;}
 
 div.maintop  {font-size: 40px; position: relative;
               width: 1020px; height: 120px; top:30px;
@@ -114,12 +109,10 @@ table.commerce  {position: absolute; top: 220px;
 td,th      {border: white solid 2px; width:490px; height: 400px;
             text-align: center; color: white;}
 
-div.in     {border: white solid 2px; width: 200px; height: 200px;
-            margin: 0 auto; text-align: center;}
+div.in     {border: white solid 2px; width: 300px; height: 300px;
+            margin: 20px auto; text-align: center; }
 
-img.bigger  {width: 100px; height: 100px; margin-top: 50px;}
-img.bigger:hover    {transform: scale(2);
-                    transition: 2s;}
+img.bigger  {width: 300px; height: 300px; margin-top: 0;}
 
 img.rotate    {width: 200px; height: 200px;}
 img.rotate:hover {transform: rotate(360deg);
@@ -139,16 +132,18 @@ img.rotate:hover {transform: rotate(360deg);
 
 div.maincontent {position: absolute; top: 220px; width:1000px; 
                 display: flex; flex-direction: column; border: 2px solid white;
-                height: 3000px; justify-content: top;}
+                height: auto; justify-content: top; flex-wrap: wrap;} 
 
 
 div.division1 {display: flex; flex-direction: column; width: 980px; 
-              border: 2px solid white; margin: 10px auto; background-color: #003464;}
+              border: 2px solid white; margin: 10px auto; background-color: #003464; flex-wrap: wrap;
+                height: auto;}
 div.imagetitle {border-bottom: 2px solid white; height: 65px; width: 960px;
                margin: 10px auto; color: white; font-size: 60px; 
                text-align: center;}
 div.imagecontent {display: flex; flex-direction: row; width: 960px; 
-                justify-content: left; margin-left: 10px; margin-right: 10px; margin-top: 5px;}
+                justify-content: left; margin-left: 10px; margin-right: 10px; margin-top: 5px;
+                flex-wrap: wrap; height: auto; overflow: hidden;}
 div.imagetext   {margin-top:5px; margin-left: 10px; margin-right: 10px; height: 50px;
                 width: 960px; display: flex; flex-direction: row; justify-content: left;}
 div.imagename   {color: white; text-align: center; width: 200px; margin: 0 auto;}
@@ -161,6 +156,13 @@ div.tctitle     {border-bottom: 2px solid white; height: 45px; width: 960px;
                 margin: 10px auto; color: white; font-size: 40px; 
                 text-align: left;}
 div.tctext      {color: white; font-size: x-large; padding: 7px;}
+
+.searchbutton   {margin-left: 10px; width: 90px; height: 30px;
+                border: 5px inset; background-color: B9B8B1;
+                animation: appear 2s ease;}
+
+.searchbutton:hover {border: black solid 1px;}
+.searchform {display: flex; flex-direction: column; width: 550px; margin-right: 350px; margin-bottom: 30px;}
 
 
 
@@ -265,7 +267,7 @@ div.navy1020    {display: flex; justify-content: center;
                 min-height: 100vh; background-color: #003464;
                 background:url(NYAN-CAT-ARTINTERVIEW-copy.webp) repeat;
                 background-origin: border-box; width: 100%;
-                margin: 0 auto; height: 3000px;}
+                margin: 0 auto; height: 4000px;}
 
 
 div.movingbox   {font-size: 55px; width: 95%; text-align: left;

@@ -1,0 +1,132 @@
+{ 
+    "products":[
+    {
+        "type" : "Cat",
+        "name" : "Popcat & Bitcoin",
+        "image" : "popcatpx.webp",
+        "price" : "3.82 ETH"
+    },
+    {
+        "type" : "Human",
+        "name" : "Pearl with a Pearl Earring",
+        "image" : "pxart.png",
+        "price" : "8.77 ETH"
+    },
+    {
+        "type" : "Game",
+        "name" : "pacman ghost",
+        "image" : "pacmanpx.png",
+        "price" : "0.55 ETH"
+    },
+    {
+        "type" : "Cat",
+        "name" : "nyancat365",
+        "image" : "movingnyan.gif",
+        "price" : "11.89 ETH"
+    },
+    {
+        "type" : "Cat",
+        "name" : "Dancing Popcat",
+        "image" : "dancingpopcat.gif",
+        "price" : "0.11 ETH"
+    },
+    {
+        "type" : "Human",
+        "name" : "Deadfellaz",
+        "image" : "deadfellaz.gif",
+        "price" : "2.11 ETH"
+    },
+    {
+        "type" : "Human",
+        "name" : "Headphone 365",
+        "image" : "headphoneman.gif",
+        "price" : "4.40 ETH"
+    },
+    {
+        "type" : "Cat",
+        "name" : "Cat with jipsa",
+        "image" : "jipsacat.png",
+        "price" : "1.01 ETH"
+    },
+    {
+        "type" : "Cat",
+        "name" : "No cat",
+        "image" : "nocat.jpeg",
+        "price" : "3.09 ETH"
+    },
+    {
+        "type" : "Cat",
+        "name" : "Popcat Recursion",
+        "image" : "popcat_recursion.jpeg",
+        "price" : "6.18 ETH"
+    },
+    {
+        "type" : "Cat",
+        "name" : "Sad cat",
+        "image" : "sadcat.png",
+        "price" : "0.59 ETH"
+    },
+
+    {
+        "type" : "Human",
+        "name" : "Astronaut",
+        "image" : "spaceman.jpeg",
+        "price" : "2.00 ETH"
+    },
+    {
+        "type" : "Human",
+        "name" : "Thug life",
+        "image" : "thuglifeman.jpeg",
+        "price" : "7.10 ETH"
+    },
+    {
+        "type" : "Human",
+        "name" : "Wizard",
+        "image" : "wizardman.jpeg",
+        "price" : "10.89 ETH"
+    },
+    {
+        "type" : "Human",
+        "name" : "Zombie",
+        "image" : "zombieman.png",
+        "price" : "10.89 ETH"
+    },
+    {
+        "type" : "Game",
+        "name" : "Minecraft Steve",
+        "image" : "steve.png",
+        "price" : "29.99 ETH"
+    },
+    {
+        "type" : "Game",
+        "name" : "Nezuko",
+        "image" : "nezuko.jpeg",
+        "price" : "12.19 ETH"
+    },
+    {
+        "type" : "Game",
+        "name" : "Among Us",
+        "image" : "amongus.png",
+        "price" : "0.09 ETH"
+    },
+    {
+        "type" : "Game",
+        "name" : "Undertale Sans",
+        "image" : "sans.png",
+        "price" : "2.22 ETH"
+    },
+    {
+        "type" : "Game",
+        "name" : "LOL jinx",
+        "image" : "jinx.png",
+        "price" : "3.31 ETH"
+    },
+    {
+        "type" : "Game",
+        "name" : "Vex",
+        "image" : "bex.png",
+        "price" : "2.79 ETH"
+    }
+
+    ]
+}
