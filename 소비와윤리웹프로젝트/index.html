@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="soyun.css">
+    <title>Ethical Consumption Map</title>
+  </head>
+  <body class="indexback">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js">
+    </script>
+    <script>
+      $( document ).ready( function() {
+      var Delay = 600;
+      $( '#korean' ).animate( {
+        opacity: '1'
+      }, Delay, function() {
+        $( '#english' ).animate( {
+          opacity: '1'
+        }, Delay, function() {
+          $( '#gotomap' ).animate( {
+            opacity: '1'
+          }, Delay );
+        });
+      });
+    });
+    </script>
+    <div id="korean">
+      윤리적 소비 실천을 위한 지도.
+    </div>
+    <div id="english">
+      Guide map for Ethical Consumption in seoul.
+    </div>
+    <div id="gotomap" OnClick="location.href ='soyunmap.html'" style="cursor:pointer;">
+      지도 보러가기
+    </div>
+  </body>
+</html>
