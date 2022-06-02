@@ -1,10 +1,10 @@
 body.indexback {background: url('seoulbackground.jpg') }
 
-@font-face { /* ¾ÖÇÃ»êµ¹°íµñ ÆùÆ® Àû¿ë */
+@font-face { /* ï¿½ï¿½ï¿½Ã»êµ¹ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ */
     font-family: "SDGothic";
     src: url("AppleSDGothicNeoM.ttf") format("truetype");
     font-weight: normal;
-  } /* ÀÌÈÄ "SDGothic"À¸·Î ÆùÆ® Àû¿ë °¡´É */
+  } /* ï¿½ï¿½ï¿½ï¿½ "SDGothic"ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 
 * { font-family: SDGothic,serif;}
 
@@ -36,17 +36,54 @@ div.head  {font-size: 45px; font-weight: bolder; margin-top: 70px; color: green;
 iframe  {border-radius: 15px; border: black 7.5px solid; width: 1300px;
         margin: 25px auto;}
 
-div.first {width: 1300px; height: 600px; margin: 0 auto; margin-top: 25px; display:flex; flex-direction: row;}
-div.second{width: 760px; height: 450px; border: white 2px solid; margin-top: 80px; margin-left: 25px;}
+div.first {width: 1300px; height: 900px; margin: 0 auto; margin-top: 25px; display:flex; flex-direction: row;
+          flex-wrap: wrap; margin-bottom: 70px; padding-bottom: 70px; border-bottom: black 5px solid;}
+div.second{width: 760px; height: 450px; border: white 2px solid; margin-top: 25px; margin-left: 25px;
+        }
 div.third {width: 460px; height: 450px; margin-top: 25px; margin-left: 22px;
             }
         
-th         {text-align: center; font-size: 32px; border-bottom: black 3px solid;}
+th         {text-align: center; font-size: 32px; border-bottom: black 4px solid;}
+td         {border-bottom: black 1px solid; border-right: black 1px solid;}
 table      {width: 440px; height: 500px; text-align: left; margin-left: 40px; font-size: 17px;
-            font-weight: 410;}
+            font-weight: 410; margin-top: 25px;}
+table.info1  {height: auto; margin-top: 0px; margin-left: 25px; width: 1300px;}
+table.info2  {height: auto; margin-top: 0px; margin-left: 25px; width: 1300px;}
+table.info3  {height: auto; margin-top: -30px; margin-left: 25px; width: 1300px;}
 .blue   {color: rgb(29, 85, 180);}
 .green  {color: rgb(41, 142, 41);}
 
 .back{color: black; font-size: larger; text-decoration: none;
     margin-left: 30px; font-weight: bold;}
 .back:hover{color: black; font-size: larger; text-decoration: underline;}
+
+.nabi {height: 550px;}
+img.nabi {height: 540px; border-radius: 10px;
+        border: black 4px solid;}
+#nabidiv {height: 540px;}
+
+th.blue {color: rgb(29, 85, 180);}
+
+.elephant   {height: 500px;}
+img.elephant  {border: black 4px solid; border-radius:10px;
+              height: 495px;}
+#elephantdiv {height: 495px;}
+
+.snake      {height:500px;}
+img.snake   {height: 495px; border: black 4px solid; border-radius: 10px;}
+#snakediv {height: 495px;}
+
+.thinfo {font-weight: default; font-size: medium;}
+
+div.list    {text-align: left; width: 1300px; margin: 0 auto; font-size: 32px; color: black; font-weight: bold;}
+a.linkingblack1  {font-size: 32px; color: black; text-decoration: none; font-weight: bold;}
+a.linkingblack2  {font-size: 32px; color: black; text-decoration: none; font-weight: bold;}
+a.linkingblack3  {font-size: 32px; color: black; text-decoration: none; font-weight: bold;}
+a.linkingblack1:hover  {font-size: 32px; color: rgb(29, 85, 180); text-decoration: underline;
+                        font-weight: bold;}
+a.linkingblack2:hover  {font-size: 32px; color: black; text-decoration: underline;
+                        font-weight: bold;}
+a.linkingblack3:hover  {font-size: 32px; color: rgb(41, 142, 41); text-decoration: underline;
+                        font-weight: bold;}
+                
+
