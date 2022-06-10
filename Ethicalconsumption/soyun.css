@@ -85,5 +85,21 @@ a.linkingblack2:hover  {font-size: 32px; color: black; text-decoration: underlin
                         font-weight: bold;}
 a.linkingblack3:hover  {font-size: 32px; color: rgb(41, 142, 41); text-decoration: underline;
                         font-weight: bold;}
+
+div.last{
+    width: 1300px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+div.lastfirst{
+    width: 1300px; height: 500px; margin: 0 auto; margin-top: 25px; display:flex; flex-direction: row;
+    flex-wrap: wrap; margin-bottom: 70px; padding-bottom: 70px; border-bottom: black 5px solid;
+}
+
+table.info4{
+    width: 1300px;
+    margin: 0 auto;
+}
                 
 
